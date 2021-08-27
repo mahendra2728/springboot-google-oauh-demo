@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google :
+            clientId: <Google Client ID>
+            clientSecret: <Google Client Secret>
+
